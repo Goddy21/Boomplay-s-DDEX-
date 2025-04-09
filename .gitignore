@@ -1,0 +1,45 @@
+# Ignore environment variables
+.env
+
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and debug files
+*.log
+logs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled Python files
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore package dependencies
+node_modules/
+dist/
+build/
